@@ -51,8 +51,6 @@ public class HRM_Leave {
             found = true;
         }
 
-
-
         //Select To date
 
         //click on To
@@ -62,7 +60,7 @@ public class HRM_Leave {
         WebElement toMonthElement = driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
 
         Select toMonth = new Select(toMonthElement);
-        toMonth.selectByValue("8");
+        toMonth.selectByValue("9");
 
         boolean found2=false;
         while (!found2) {
